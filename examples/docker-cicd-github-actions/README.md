@@ -11,11 +11,11 @@ This project demonstrates automated Docker image build and deployment process us
 
 ## 🚀 Setup
 
-### 1. Fork/Clone This Repository
+### 1. Clone This Repository
 
 ```bash
-git clone https://github.com/YOURUSERNAME/github-actions-demo.git
-cd github-actions-demo
+git clone https://github.com/Emre-Yavas/introduction-to-docker.git
+cd introduction-to-docker/examples/docker-cicd-github-actions
 ```
 
 ### 2. Test Locally
@@ -50,19 +50,19 @@ git push origin main
 
 ```bash
 # Latest version
-docker pull ghcr.io/YOURUSERNAME/github-actions-demo:latest
+docker pull ghcr.io/emre-yavas/introduction-to-docker:latest
 
 # Specific version
-docker pull ghcr.io/YOURUSERNAME/github-actions-demo:v1.0.0
+docker pull ghcr.io/emre-yavas/introduction-to-docker:v1.0.0
 
 # Run it
-docker run -p 3000:3000 ghcr.io/YOURUSERNAME/github-actions-demo:latest
+docker run -p 3000:3000 ghcr.io/emre-yavas/introduction-to-docker:latest
 ```
 
 ## 🔧 Project Structure
 
 ```
-github-actions-demo/
+docker-cicd-github-actions/
 ├── .github/
 │   └── workflows/
 │       └── docker-publish.yml    # GitHub Actions pipeline
@@ -135,7 +135,7 @@ ghcr.io/username/repo:v1.0.0
 2. Watch tag build in Actions
 3. Pull image with version:
    ```bash
-   docker pull ghcr.io/YOURUSERNAME/github-actions-demo:v1.0.0
+   docker pull ghcr.io/emre-yavas/introduction-to-docker:v1.0.0
    ```
 
 ## 🔍 Troubleshooting
