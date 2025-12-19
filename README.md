@@ -36,7 +36,7 @@ introduction-to-docker/
 
 ## 🎯 What's Inside
 
-### 1. Hands-On Exercises
+### 1. Hands-On Exercises   
 
 **Location:** [`hands-on-exercises/`](hands-on-exercises/)
 
